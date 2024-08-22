@@ -1,0 +1,56 @@
+.dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-buttons {
+  margin-bottom: 20px;
+}
+
+.action-button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #357ABD;
+}
+
+.pending-tasks-list {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pending-tasks-list h3 {
+  color: #4A90E2;
+  margin-bottom: 15px;
+}
+
+.pending-tasks-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pending-tasks-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+.pending-tasks-list li:last-child {
+  border-bottom: none;
+}
